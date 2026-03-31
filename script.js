@@ -18,7 +18,7 @@ function renderTasks(){
         };
 
         let delBtn = document.createElement("button");
-        delBtn.textContent = "X";
+        delBtn.innerHTML = "X";
         delBtn.onclick = (e) => {
             e.stopPropagation();
             tasks.splice(index, 1);
@@ -43,6 +43,11 @@ function addTask() {
 function saveTasks() {
     localStorage.setItem("tasks", JSON.stringify(tasks));
     renderTasks();
+
+document.getElementById("taskInput").addEventListener("keypress", function(e) {
+    if (e.key === "Enter") addTask();
+});
+
 }
 
 renderTasks();
