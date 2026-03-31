@@ -6,12 +6,12 @@ A simple and interactive To-Do List web application built using HTML, CSS, and J
 
 ## 🚀 Features
 
-- ➕ Add new tasks  
-- ✅ Mark tasks as completed  
-- ❌ Delete tasks  
-- 💾 Persistent storage using LocalStorage  
-- ⌨️ Add tasks using Enter key  
-- 📱 Responsive and user-friendly interface  
+- Add new tasks  
+- Mark tasks as completed  
+- Delete tasks  
+- Persistent storage using LocalStorage  
+- Add tasks using Enter key  
+- Responsive and user-friendly interface  
 
 ---
 
@@ -32,7 +32,8 @@ A simple and interactive To-Do List web application built using HTML, CSS, and J
 
 ## 📸 Screenshots
 
-*(You can add screenshots later)*
+![App Screenshot](images/first_image.png)
+![App Screenshot](images/second_image.png)
 
 ---
 
@@ -41,6 +42,7 @@ todo-web-app/
 │── index.html
 │── style.css
 │── script.js
+│── images/
 
 ---
 
@@ -54,15 +56,6 @@ git clone https://github.com/Kavita-127/todo-web-app.git
 2. Open the folder  
 
 3. Run `index.html` in your browser  
-
----
-
-## 📌 Future Improvements
-
-- ✏️ Edit task feature  
-- 🔍 Search/filter tasks  
-- 📊 Task counter  
-- 🎨 UI enhancements  
 
 ---
 
